@@ -16,7 +16,6 @@ classifiers=[
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
     ]
@@ -25,7 +24,7 @@ keywords=["Reinforcement Learning", "Finance"]
 github = "https://github.com/finrl/finrl-library"
 
 [tool.poetry.dependencies]
-python = "~3.10"
+python = "~3.9"
 exchange-calendars = "^4"
 pyfolio = "^0.9"
 pyportfolioopt = "^1"
