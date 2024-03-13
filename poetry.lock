@@ -374,41 +374,6 @@ docs = ["furo", "myst-parser", "sphinx", "sphinx-notfound-page", "sphinxcontrib-
 tests = ["attrs[tests-no-zope]", "zope-interface"]
 tests-no-zope = ["cloudpickle", "hypothesis", "mypy (>=1.1.1)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
 
-[[package]]
-name = "autorom"
-version = "0.6.1"
-description = "Automated installation of Atari ROMs for Gym/ALE-Py"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "AutoROM-0.6.1-py3-none-any.whl", hash = "sha256:e734fdad23dc8e48897de013803eba3c9e109e028d5463a4817346f7f669604f"},
-    {file = "AutoROM-0.6.1.tar.gz", hash = "sha256:6eff1f1b96a9d519577437f71d96a8d3b896238eca3433a8e69c5c92f6de3231"},
-]
-
-[package.dependencies]
-"AutoROM.accept-rom-license" = {version = "*", optional = true, markers = "extra == \"accept-rom-license\""}
-click = "*"
-requests = "*"
-
-[package.extras]
-accept-rom-license = ["AutoROM.accept-rom-license"]
-
-[[package]]
-name = "autorom-accept-rom-license"
-version = "0.6.1"
-description = "Automated installation of Atari ROMs for Gym/ALE-Py"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "AutoROM.accept-rom-license-0.6.1.tar.gz", hash = "sha256:0c905a708d634a076f686802f672817d3585259ce3be0bde8713a4fb59e3159e"},
-]
-
-[package.dependencies]
-click = "*"
-requests = "*"
-
-[package.extras]
-tests = ["ale_py", "multi_agent_ale_py"]
 
 [[package]]
 name = "backcall"
