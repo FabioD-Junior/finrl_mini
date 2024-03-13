@@ -28,19 +28,17 @@ python = "~3.9"
 exchange-calendars = "^4"
 pyfolio = "^0.9"
 pyportfolioopt = "^1"
-ray = {extras=["default", "tune"], version = "^2"}
 scikit-learn = "^1"
 stable-baselines3 = {version = ">=2.0.0a5"}
 stockstats = "^0.5"
-wrds = "^3"
 yfinance = "^0.2"
+Flask = "3.0.0"
+pandas = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23"
-isort = "^5"
-jupyter = "^1"
-mypy = "^1"
-pandas-stubs = "^2"
+
+
 
 [build-system]
 requires = ["poetry-core"]
