@@ -31,7 +31,7 @@ pyportfolioopt = "^1"
 scikit-learn = "^1"
 stable-baselines3 = {version = ">=2.0.0a5"}
 stockstats = "^0.5"
-yfinance = "^0.2"
+#yfinance = "^0.2"
 Flask = "3.0.0"
 pandas = "*"
 
