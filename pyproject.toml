@@ -24,7 +24,7 @@ keywords=["Reinforcement Learning", "Finance"]
 github = "https://github.com/finrl/finrl-library"
 
 [tool.poetry.dependencies]
-python = "~3.9"
+python = "~3.10"
 exchange-calendars = "^4"
 pyfolio = "^0.9"
 pyportfolioopt = "^1"
